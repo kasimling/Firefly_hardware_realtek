@@ -69,7 +69,7 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_STATIC_LIBRARIES := \
     libtinyxml2 \
-    libbt-qcom_sbc_decoder
+    libbt-sbc-decoder
 
 LOCAL_WHOLE_STATIC_LIBRARIES := \
     libbt-bta-rtk \

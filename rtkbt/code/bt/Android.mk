@@ -4,6 +4,7 @@ LOCAL_PATH := $(call my-dir)
 rtkbt_bdroid_C_INCLUDES := $(LOCAL_PATH)/realtek/include
 rtkbt_bdroid_C_INCLUDES += $(LOCAL_PATH)/bta/hh
 rtkbt_bdroid_C_INCLUDES += $(LOCAL_PATH)/bta/dm
+rtkbt_bdroid_C_INCLUDES += system/bt/types
 rtkbt_bdroid_CFLAGS := -DBLUETOOTH_RTK
 rtkbt_bdroid_CFLAGS += -DBLUETOOTH_RTK_API
 rtkbt_bdroid_CFLAGS += -DBLUETOOTH_RTK_COEX
